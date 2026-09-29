@@ -48,7 +48,7 @@ export default function App() {
         <line
           x1={cx} y1={cy}
           x2={cx} y2={cy - 118}
-          stroke="black"
+          stroke="#e63946"
           strokeWidth="5"
           strokeLinecap="round"
           transform={rot(angles.hour)}
@@ -58,7 +58,7 @@ export default function App() {
         <line
           x1={cx} y1={cy}
           x2={cx} y2={cy - 155}
-          stroke="black"
+          stroke="#e63946"
           strokeWidth="5"
           strokeLinecap="round"
           transform={rot(angles.min)}
