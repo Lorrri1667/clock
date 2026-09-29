@@ -1,1 +1,10 @@
-{}
+{
+  "description": "Displays a dynamic clock with smoothly moving hands to provide an accurate and visually engaging timekeeping experience for users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
