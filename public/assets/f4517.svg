@@ -1,0 +1,48 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="474" height="475" viewBox="0 0 474 475" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Clock">
+<g id="Cirlcle" filter="url(#filter0_ddii_0_20)">
+<circle cx="236" cy="237" r="210" fill="#EAECF3"/>
+<circle cx="236" cy="237" r="209.5" stroke="#3F3F3F" stroke-opacity="0.1"/>
+</g>
+<line id="Line 1" x1="237" y1="59" x2="237" y2="99" stroke="#9E9FA6" stroke-width="2"/>
+<line id="Line 2" x1="237" y1="366" x2="237" y2="406" stroke="#9E9FA6" stroke-width="2"/>
+<line id="Line 3" x1="361" y1="236" x2="401" y2="236" stroke="#9E9FA6" stroke-width="2"/>
+<line id="Line 4" x1="63" y1="236" x2="103" y2="236" stroke="#9E9FA6" stroke-width="2"/>
+<line id="Line 5" x1="236.5" y1="234.5" x2="236.5" y2="112.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<line id="Line 6" x1="233.5" y1="237.5" x2="145.5" y2="237.5" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<circle id="Ellipse 1" cx="236" cy="237" r="12" fill="#3F3DB6" stroke="white" stroke-width="4"/>
+<line id="Line 7" x1="215.659" y1="219.248" x2="345.659" y2="333.248" stroke="#3F3DB6" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_ddii_0_20" x="0" y="0" width="474" height="475" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-6" dy="-7"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_20"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="8" dy="8"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.666667 0 0 0 0 0.666667 0 0 0 0 0.666667 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_0_20" result="effect2_dropShadow_0_20"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_0_20" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect3_innerShadow_0_20"/>
+<feOffset dx="5" dy="7"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.65 0 0 0 0 0.65 0 0 0 0 0.65 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_0_20"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="2" operator="erode" in="SourceAlpha" result="effect4_innerShadow_0_20"/>
+<feOffset dx="-6" dy="-1"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect3_innerShadow_0_20" result="effect4_innerShadow_0_20"/>
+</filter>
+</defs>
+</svg>
