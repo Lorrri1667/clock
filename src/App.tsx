@@ -32,46 +32,11 @@ export default function App() {
         viewBox="0 0 474 475"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        style={{ maxWidth: "90vw", maxHeight: "90vw" }}
+        style={{ maxWidth: "90vw", maxHeight: "90vw", filter: "drop-shadow(-6px -7px 20px rgba(255,255,255,0.5)) drop-shadow(8px 8px 20px rgba(170,170,170,0.25))" }}
       >
-        <defs>
-          <filter id="clock-shadow" x="0" y="0" width="474" height="475" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feOffset dx="-6" dy="-7" />
-            <feGaussianBlur stdDeviation="10" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
-            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feOffset dx="8" dy="8" />
-            <feGaussianBlur stdDeviation="10" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix type="matrix" values="0 0 0 0 0.666667 0 0 0 0 0.666667 0 0 0 0 0.666667 0 0 0 0.25 0" />
-            <feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow" />
-            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect3_innerShadow" />
-            <feOffset dx="5" dy="7" />
-            <feGaussianBlur stdDeviation="5" />
-            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-            <feColorMatrix type="matrix" values="0 0 0 0 0.65 0 0 0 0 0.65 0 0 0 0 0.65 0 0 0 0.25 0" />
-            <feBlend mode="normal" in2="shape" result="effect3_innerShadow" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="effect4_innerShadow" />
-            <feOffset dx="-6" dy="-1" />
-            <feGaussianBlur stdDeviation="5" />
-            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
-            <feBlend mode="normal" in2="effect4_innerShadow" result="effect4_innerShadow" />
-          </filter>
-        </defs>
-
         {/* Clock face */}
-        <g filter="url(#clock-shadow)">
-          <circle cx={cx} cy={cy} r="210" fill="#EAECF3" />
-          <circle cx={cx} cy={cy} r="209.5" stroke="#3F3F3F" strokeOpacity="0.1" />
-        </g>
+        <circle cx={cx} cy={cy} r="210" fill="#EAECF3" />
+        <circle cx={cx} cy={cy} r="209.5" stroke="#3F3F3F" strokeOpacity="0.1" />
 
         {/* Hour tick marks */}
         <line x1="237" y1="59" x2="237" y2="99" stroke="#9E9FA6" strokeWidth="2" />
