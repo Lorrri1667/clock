@@ -25,7 +25,7 @@ export default function App() {
   const rot = (deg: number) => `rotate(${deg}, ${cx}, ${cy})`;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#d8dae3]">
+    <div className="min-h-screen flex items-center justify-center" style={{ background: "#d8dae3" }}>
       <svg
         width="340"
         height="340"
